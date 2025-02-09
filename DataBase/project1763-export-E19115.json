@@ -1,0 +1,252 @@
+{
+  "Banner": [
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/banner5.jpg?alt=media&token=8f6b5f0e-106f-448c-b231-ecdef21d0612"
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/banner6.jpg?alt=media&token=b173f22f-82ca-47d2-a5f6-561d5d34c188"
+    }
+  ],
+  "Category": [
+    {
+      "id": 0,
+      "title": "Shoes"
+    },
+    {
+      "id": 1,
+      "title": "Clothes"
+    },
+    {
+      "id": 2,
+      "title": "Gadgets"
+    }
+  ],
+  "Items": [
+    {
+      "categoryId": 0,
+      "description": "Category: Shoes,   Brand: Dr. Brinkmann ,   Color: Multicolor/Gold/Black,   Type: Slip on,   Shoe height: 9cm,   Shoe weight: 182g,   Inner sole: Leather,   Interior: Fabric,   Upper part: Faux leather",
+      "offer": true,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/brink1.jpg?alt=media&token=00823e0b-be58-4720-b641-c58fe66e4fb7",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/brink2.jpg?alt=media&token=f1158d42-9c63-4cd1-bab6-057956560cca",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/brink3.jpg?alt=media&token=571b5336-01e2-4d5e-8aa5-aa33d55e8a32",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/brink4.jpg?alt=media&token=9f09225d-a2cc-4fc7-92f8-349370f31015"
+      ],
+      "price": 60,
+      "rating": 5,
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "title": "Sandal Dr. Brinkmann"
+    },
+    {
+      "categoryId": 0,
+      "description": "Category: Shoes,   Brand: Nike,   Color: Black/Blue/Black-Red,   Style: Sneaker,   Fit: Relaxed Fit,   Composition: Recycled Materials.",
+      "offer": true,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/nike1.jpg?alt=media&token=caa4f460-75bf-40db-b69d-4c13a82fc662",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/nike2.jpg?alt=media&token=216eb479-81b9-4f2a-bc3d-01db29b76703",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/nike3.jpg?alt=media&token=d0b05f45-98d8-4d48-b1f8-ceb9c426c9c7",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/nike4.jpg?alt=media&token=812774fc-a6e0-49a5-b94c-8c036297372a"
+      ],
+      "price": 138,
+      "rating": 4.9,
+      "size": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "title": "Nike Dunk Low Retro"
+    },
+    {
+      "categoryId": 0,
+      "description": "Category: Shoes,   Category: Shoes,   Brand: Adidas,   Color: Black/White,   Style: Running Shoe.                 Elastic upper made of mesh fabric,   Support section with Fitframe technology in the middle of the tread,   Feeling that hugs the foot,   Inner lining for added comfort,   EVA midsole,   Rubber outsole.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas.jpeg?alt=media&token=36dde3fa-6899-48e2-8583-dadc13a19521",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas2.jpeg?alt=media&token=6ce184fd-2a30-4c14-84cd-37ebfeb9e4fd",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas3.jpeg?alt=media&token=13ac9e2e-12e7-49ee-b931-deb8893e1615",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas4.jpeg?alt=media&token=1ae691ad-4f6d-419a-ab1f-f2418fc9899e",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas5.jpeg?alt=media&token=9072b45a-7bc2-4bca-9c13-d62124b4e0d6",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/adidas6.jpeg?alt=media&token=84162793-aa10-483e-8310-7b2c3a71a0c5"
+      ],
+      "price": 45,
+      "rating": 3.4,
+      "size": [
+        "37",
+        "38",
+        "40",
+        "40.5",
+        "41"
+      ],
+      "title": "Adidas Showtheway 2.0"
+    },
+    {
+      "categoryId": 0,
+      "description": "Category: Shoes,   Brand: Tsakiris Mallas,   Color: Beige,   Shoe Type: Moccasin,   Heel height: low,   Composition: Leather,   Season: Spring/Summer.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/moka.jpg?alt=media&token=6c212b74-5700-47b3-a2c7-2c567c046091",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/moka2.jpg?alt=media&token=98e08bb2-0b8d-4a65-b5c6-2cb34bc4b477"
+      ],
+      "price": 80,
+      "rating": 4,
+      "size": [
+        "37",
+        "38",
+        "40",
+        "41"
+      ],
+      "title": "Moccasin - leather collection "
+    },
+    {
+      "categoryId": 1,
+      "description": "Category: Clothes,   Brand: H&M,   Color: Black/White/Beuge,   Sleeve length: Sleeveless,   Fit: Tight fit,   Style: One Shoulder,   Composition: viscose 84% / polyamide 16%.                                                                                                                  Short, fitted top and fine ribbed knit in viscose blend. Asymmetric neckline, one uncovered shoulder and double thin straps on the other shoulder that tie in a knot at the back. ",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/top1.jpg?alt=media&token=36bb4a7d-4a82-4b76-91ba-3819f31874be",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/top2.jpg?alt=media&token=67b792ce-fe3c-4532-96f4-6ba3ae62a64d",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/top3.jpg?alt=media&token=bc321201-0177-40f3-8a56-f52097c9fd05"
+      ],
+      "price": 10,
+      "rating": 4.4,
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "title": "One shoulder Top"
+    },
+    {
+      "categoryId": 1,
+      "description": "Category: Clothes,   Brand: LUISAVIAROMA,   Color: Light Blue,   Sleeve length: Fixed spaghetti straps,   Fit: Tight fit,   Style: Unlined,   Composition: 100% Silk.",
+      "offer": true,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/dress.jpg?alt=media&token=01cc2708-5c0e-4bef-a21e-510a571fc4de",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/dress2.jpg?alt=media&token=9de95880-e6b6-4d82-988a-4a4135ccb3ee"
+      ],
+      "price": 247,
+      "rating": 4,
+      "size": [
+        "6 UK (38 IT)",
+        "12UK (44 IT)"
+      ],
+      "title": "Catania silk satin slip dress"
+    },
+    {
+      "categoryId": 1,
+      "description": "Category: Clothes,   Brand: Levis,   Color: Blue/Black,   Length: Hits at the knee,   Fit: Regular,   Style: 5-pocket styling,   Composition: 99% Cotton, 1% LYCRA.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/shorts.jpg?alt=media&token=49281d70-f561-4c0a-b779-7ffef21bb5d1",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/shorts2.jpg?alt=media&token=8b47eef8-ecd9-445f-afb4-66b6339a0268",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/shorts3.jpg?alt=media&token=f7380251-cc35-40b9-9b49-37695d779d1d"
+      ],
+      "price": 65,
+      "rating": 4.2,
+      "size": [
+        "28",
+        "29",
+        "32",
+        "34",
+        "36"
+      ],
+      "title": "5Pm In The Mission Shorts Men"
+    },
+    {
+      "categoryId": 1,
+      "description": "Category: Clothes,   Brand: Celestino,   Color: Green/Blue/Black,   Fit: Normal fit,   Style: Strapless/Highwaisted,   Season: Summer,   Occasion: Beach,   Composition: 82% polyester/18% spandex.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/magio.jpg?alt=media&token=bedd8bf8-b8c0-424f-a83f-269b03c88154",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/magio2.jpg?alt=media&token=7a1c5a98-fe21-42ba-95f7-060711d1d82d",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/magio3.jpg?alt=media&token=0daf188e-d469-4abf-af15-16a47d9a8bf6"
+      ],
+      "price": 15,
+      "rating": 4.3,
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "title": "Bikini set with embossed fabric"
+    },
+    {
+      "categoryId": 2,
+      "description": "Category: Gadgets,   Brand: Xiaomi,   Color: Blue,   Type of accessory: Power bank,   Compatibility: Smartphone,   Charging: Fast Charging,   Battery Capacity: 10.000 mAh,   Charging Ports: 2 Positions,   USB port: 33W.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/gad1.jpg?alt=media&token=5721a4fd-8eaa-425d-b4e5-7b28fabc8196",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/gad2.jpg?alt=media&token=acddb774-8468-4085-bd02-03c6cd0d2b5e",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/gad3.jpg?alt=media&token=c33fe5e6-c555-4133-9bb3-f8df1c6d288c"
+      ],
+      "price": 49,
+      "rating": 4.9,
+      "size": [
+        "-"
+      ],
+      "title": "Xiaomi Powerbank 10000 mAh"
+    },
+    {
+      "categoryId": 2,
+      "description": "Category: Gadgets,   Brand: Morris,   Color: Black,   Type of accessory: Fan,   Compatibility: USB,   Battery Capacity: 2000mAh,   Use: Office/Home.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/fan.jpeg?alt=media&token=f4374dc2-018c-437e-9ba3-a95ccc4e3061"
+      ],
+      "price": 19,
+      "rating": 3.9,
+      "size": [
+        "-"
+      ],
+      "title": "Morris USB Fan"
+    },
+    {
+      "categoryId": 2,
+      "description": "Category: Gadgets,   Brand: Samsung,   Color: Silver/Black,   Type of accessory: SmartWatch,   Model: Samsung Galaxy Watch 6,   Screen Size: 1,5'',   Screen resolution: 480x480 pixels,   Display Type: Super AMOLED,   Compatible Operating System: Android,   Touch Screen: Yes,   Internal Storage Memory: 16 GB,   Interface Type: Bluetooth/NFC/Wi-Fi,   Case Material: Stainless Steel,   Functions: Caller ID/App Notification,   Battery Capacity: 425 mAh.",
+      "offer": true,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/smartWatch.jpeg?alt=media&token=7b26987f-7be2-475e-937a-263c32348721",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/smartWatch2.jpeg?alt=media&token=8fd9f1de-e98f-4c44-a63f-948592d1f5f9",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/smartWatch3.jpeg?alt=media&token=15cd47a0-70e4-4714-912c-2e59d8a3f1cf",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/smartWatch4.jpeg?alt=media&token=a09cc248-7263-4851-96af-a319ba5f664e",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/smartWatch5.jpeg?alt=media&token=9290d591-f829-4155-9d95-80ebbb79584a"
+      ],
+      "price": 240,
+      "rating": 4.9,
+      "size": [
+        "-"
+      ],
+      "title": "Samsung Galaxy Watch 6 Classic"
+    },
+    {
+      "categoryId": 2,
+      "description": "Category: Gadgets,   Brand: Xiaomi,   Color: White,   Type of accessory: Photo Printer,   Bluetooth: Yes,   Colour Print Resolution: 313x400 dpi,   USB included: No.",
+      "offer": false,
+      "picUrl": [
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/printer.jpg?alt=media&token=03f9a2fa-9aac-424f-8960-41b226a8eac8",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/printer2.jpg?alt=media&token=d3140acc-d997-4e5c-b934-ead3472d2b91",
+        "https://firebasestorage.googleapis.com/v0/b/project1763-6cae6.appspot.com/o/printer3.jpg?alt=media&token=70772a96-4b54-480a-91c3-de1413f6ffc8"
+      ],
+      "price": 70,
+      "rating": 4,
+      "size": [
+        "-"
+      ],
+      "title": "Mi Portable Photo Printer"
+    }
+  ]
+}
