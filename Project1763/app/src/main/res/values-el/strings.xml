@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">About Shopping</string>
+    <string name="intro_title">Καλωσήλθατε!</string>
+    <string name="start_btn">Ξεκινήστε Τώρα</string>
+    <string name="intro_text">Ξεκινήστε τις αγορές σας!</string>
+    <string name="hi">Γειά σου!</string>
+    <string name="search">Αναζήτηση Προϊόντων...</string>
+    <string name="shop">Αγορά ανά κατηγορία</string>
+    <string name="shopPrice">Αγορά ανά τιμή</string>
+    <string name="all_prod">Όλα τα προϊόντα</string>
+    <string name="prod">Προϊόντα</string>
+    <string name="cart">Καλάθι</string>
+    <string name="wish">Λίστα Αγαπημένων</string>
+    <string name="category">Κατηγορία</string>
+    <string name="empty_cart">Το καλάθι σας είναι άδειο</string>
+    <string name="empty_fav">Η λίστα με τα αγαπημένα σας είναι άδεια</string>
+    <string name="my_cart">Το Καλάθι μου</string>
+    <string name="my_fav">Τα Αγαπημένα Μου</string>
+    <string name="subtotal">Τιμή Προϊόντος</string>
+    <string name="del_fee">Κόστος Παράδοσης</string>
+    <string name="tax">Συνολικός Φόρος</string>
+    <string name="total">Σύνολο</string>
+    <string name="check">Ολοκλήρωση Αγοράς</string>
+    <string name="select_size">Επίλεξε Νούμερο</string>
+    <string name="availability_check">Έλεγχος Διαθεσιμότητας</string>
+    <string name="buy">Αγόρασε Τώρα</string>
+    <string name="disc">Με Έκπτωση:</string>
+    <string name="disc2">Με Έκπτωση 30% :</string>
+    <string name="disc3">-30%</string>
+    <string name="sales">Καλοκαιρινές Εκπτώσεις: -30% για επιλεγμένα προϊόντα</string>
+    <string name="shoes">Παπούτσια</string>
+    <string name="clothes">Ρούχα</string>
+    <string name="gadgets">Ηλεκτρονικές Συσκευές</string>
+    <string name="minP">Ελάχιστη Τιμή</string>
+    <string name="maxP">Μέγιστη Τιμή</string>
+</resources>

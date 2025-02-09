@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/backBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/back" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_margin="16dp"
+                android:background="@color/white"
+                android:padding="16dp" />
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dotIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:dotsColor="@color/baby_blue"
+                app:dotsCornerRadius="8dp"
+                app:dotsSize="6dp"
+                app:dotsSpacing="2dp"
+                app:dotsWidthFactor="2.5"
+                app:selectedDotColor="@color/pink"
+                tools:visibility="visible" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/photoList"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:clipToPadding="false"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/titleTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="title"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/priceTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0$"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/OnDiscount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/disc2"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/productDiscountedPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0$"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/select_size"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    app:srcCompat="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/ratingTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/sizeList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/availability"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="15dp"
+                    android:backgroundTint="@color/baby_blue"
+                    android:text="@string/availability_check"
+                    android:textAlignment="center"
+                    app:layout_constraintTop_toBottomOf="@+id/sizeList" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descriptionTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="TextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/addToCartBtn"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/pink_button"
+                    android:text="@string/buy"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/cartBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/pink_button"
+                    app:srcCompat="@drawable/btn_2"
+                    app:tint="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

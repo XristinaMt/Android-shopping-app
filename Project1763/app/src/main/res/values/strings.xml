@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">About Shopping</string>
+    <string name="intro_title">Welcome!</string>
+    <string name="start_btn">Start Now</string>
+    <string name="intro_text">Start Shopping!</string>
+    <string name="hi">Hello!</string>
+    <string name="search">Search Products...</string>
+    <string name="shop">Shop by Category</string>
+    <string name="shopPrice">Shop by Price</string>
+    <string name="all_prod">All Products</string>
+    <string name="prod">Products</string>
+    <string name="cart">Cart</string>
+    <string name="wish">Wishlist</string>
+    <string name="category">Category</string>
+    <string name="empty_cart">Your Cart is Empty</string>
+    <string name="empty_fav">Your Favourites List is Empty</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_fav">My Favourites</string>
+    <string name="subtotal">Item Price</string>
+    <string name="del_fee">Delivery Fee</string>
+    <string name="tax">Total Tax</string>
+    <string name="total">Total</string>
+    <string name="check">Check Out</string>
+    <string name="select_size">Select Size</string>
+    <string name="availability_check">Check Availability</string>
+    <string name="buy">Buy Now</string>
+    <string name="disc">On Discount:</string>
+    <string name="disc2">On 30% Discount:</string>
+    <string name="disc3">-30%</string>
+    <string name="sales">Summer Sales: -30% for selected products</string>
+    <string name="shoes">Shoes</string>
+    <string name="clothes">Clothes</string>
+    <string name="gadgets">Gadgets</string>
+    <string name="minP">Min Price</string>
+    <string name="maxP">Max Price</string>
+</resources>
